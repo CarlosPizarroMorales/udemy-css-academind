@@ -63,6 +63,23 @@ body {
   list-style: none; 
 } sesion 62 */
 
+/* ! sesion 64 working on plans titles and prices */
+.plan__title {
+  color: #0e4f1f;
+}
+
+.plan__price {
+  color: #858585;
+}
+
+.plan--highlighted .plan__title {
+  color: white;
+}
+
+.plan--highlighted .plan__price {
+  color: #0e4f1f
+} /* ! sesion 64 end */
+
 /* ! sesion 63 Solución de Max */
 /* ? siempre prefiere clases para dar estilo */
 .plan__features {
@@ -70,10 +87,78 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-} /* ! sesion 63 */
+} 
+
+.plan__feature {
+  margin: 8px 0;
+} /*! sesion 63 end */
 
 
+/* ! sesion 65 */
+.button {
+  background: #0e4f1f;
+  color: white;
+  font: inherit;
+  border: 1.5px solid #0e4f1f;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
 
+.button:hover,
+.button:active {
+  background: white;
+  color: #0e4f1f;
+} /*! sesion 65 */
+
+/*! sesion 66 */
+.button:focus {
+  outline: none;
+}
+
+/*! sesion 68 */
+/** se agrega .section-title a h1 "Many good reasons..." */
+#key-features {
+  background: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+#key-features .section-title {
+  color: white;
+  margin: 32px;
+}
+/*! sesion 68 end */
+
+/*! sesion 69 */
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.key-feature__image {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+} /*! sesion 69 end */
 
 /* h1 {
     font-family: sans-serif;
@@ -141,3 +226,36 @@ body {
     background: white;
     border: none;
 }
+
+/*! sesion 70 */
+.main-footer {
+  background: black;
+  padding: 32px;
+  margin-top: 48px;
+} 
+
+.main-footer__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.main-footer__link {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-footer__link a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+  color: #ccc;
+}
+/*! sesion 70 */
+
+
+
