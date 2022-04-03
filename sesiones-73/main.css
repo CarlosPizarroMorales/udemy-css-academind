@@ -17,6 +17,14 @@
     font-family: 'Anton', sans-serif;
 }
 
+/*! sesion 78 */
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+/*! sesion 78 */
+
 .plan {
     background: #d5ffdc;
     text-align: center;
