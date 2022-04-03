@@ -9,6 +9,15 @@ body {
 
 .main-header {
     width: 100%;
+    /*! lectura 84 */
+    /*? position fixed funcionará como se espera */
+    /*? arriba sin top ni left, SOLO si ningún  */
+    /*? parent tiene margin aplicado */
+    /*? mejor SIEMPRE USAR top y left */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    /*! lectura 84 */
     background: #2ddf5c;
     padding: 8px 16px;
 }

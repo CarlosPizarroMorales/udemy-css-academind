@@ -1,7 +1,19 @@
-/*! sesion 74 */
+/*! sesion 74 start */
 main {
   padding-top: 32px;
 }
+
+/*! lectura 85 start */
+.background {
+  background: url("../images/plans-background.jpg");
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  /*! l.86 start */
+  z-index: -1;
+  /*! l.86 end */
+}
+/*! lectura 85 end */
 
 .package {
   width: 80%;
@@ -10,7 +22,7 @@ main {
   border-left: none;
 }
 
-/*! sesion 75 insert */
+/*! sesion 75 insert start */
 .package:hover,
 .package:active {
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
