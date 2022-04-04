@@ -61,9 +61,10 @@ html {
 } */
 
 /*! l.89 start */
-.parent .child-1 {
+/* .parent .child-1 { */
   /* position: relative; */
   /* top: 180px; */
   /* right: 50px; */
-}
+/* } */
 /*! l.89 end */
+/*? comentado para l.90 */
