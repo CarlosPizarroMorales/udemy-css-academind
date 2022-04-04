@@ -1,0 +1,69 @@
+html {
+    background: #b3b3b3;
+    padding: 15px;
+    border: 5px solid white;
+    margin: 15px;
+    height: 2000px;
+    /*! l.90 */
+    /*? Al usar overflow con elementos */
+    /*? con position: relative tengo que */
+    /*? tener cuidado de que si el parent */
+    /*? es <body>, se provocará un comportamiento  */
+    /*? por defecto que tiene esta propiedad cuando */
+    /*? se le pasa al <body> que es pasarse a si */
+    /*? misma al <html> de tal manera que no tiene */
+    /*? efecto alguno. EL "truco" consiste simplemente */
+    /*? en aplicar overflow: hidden a ambos, body y html */
+    /*? En este caso también funciona si se aplica la  */
+    /*? propiedad con el valor auto, en uno o ambos elementos */
+
+    /* overflow: hidden; */
+    /*! l.90 */
+  }
+  
+  body {
+    background: #fa923f;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+.parent {
+    background: white;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 0;
+    position: relative;
+    top: 200px;
+    /* overflow: hidden; /*! l.90 */
+  }
+  
+.parent div {
+    background: rgb(105, 105, 109);
+    color: white;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+/*
+.parent .child-1 {
+  position: fixed;
+  width: 400px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  /*? box-sizing border-box corrige *
+  /*? issue con width: 100% que hace overflow *
+  box-sizing: border-box;
+  width: 100%;
+} */
+
+/*! l.89 start */
+.parent .child-1 {
+  /* position: relative; */
+  /* top: 180px; */
+  /* right: 50px; */
+}
+/*! l.89 end */
