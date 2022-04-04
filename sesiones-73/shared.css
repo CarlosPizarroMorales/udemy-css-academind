@@ -20,6 +20,7 @@ body {
     /*! lectura 84 */
     background: #2ddf5c;
     padding: 8px 16px;
+    z-index: 1; /*! l.88 */
 }
 
 .main-header > div {

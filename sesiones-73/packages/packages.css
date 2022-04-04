@@ -1,9 +1,9 @@
-/*! sesion 74 start */
+/*! l.74 start */
 main {
   padding-top: 32px;
 }
 
-/*! lectura 85 start */
+/*! l.85 start */
 .background {
   background: url("../images/plans-background.jpg");
   width: 100%;
@@ -13,22 +13,24 @@ main {
   z-index: -1;
   /*! l.86 end */
 }
-/*! lectura 85 end */
+/*! l.85 end */
 
 .package {
   width: 80%;
   margin: 16px 0;
   border: 4px solid #0e4f1f;
   border-left: none;
+  position: relative;
+
 }
 
-/*! sesion 75 insert start */
+/*! l.75 insert start */
 .package:hover,
 .package:active {
   box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
   border-color: #ff5454;
 }
-/*! sesion 75 insert end */
+/*! l.75 insert end */
 
 .package a {
   text-decoration: none;
@@ -36,9 +38,27 @@ main {
   display: block;
   padding: 32px;
 } 
-/*! sesion 74 end */
+/*! l.74 end */
 
-/*! sesion 75 */
+/*! l.87 start */
+.package__badge {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin: 20px;
+  /*! l.88 */
+  font-size: 12px;
+  color: white;
+  background: #ff5454;
+  padding: 8px;
+  /*! l.88 end */
+}
+/*! l.87 start */
+
+
+
+
+/*! l.75 start */
 .package__subtitle {
   color: #979797;
 }
@@ -57,23 +77,23 @@ main {
 
 #free {
   background: rgba(234, 252, 237, 0.95);
-  /*! sesion 76 */
+  /*! l.76 end */
   float: right; 
   border-right: none;
   border-left: 4px solid #0e4f1f;
 }
 
-/*! sesion 77 */
+/*! l.77 start */
 #free:hover,
 #free:active {
   border-left-color: #ff5454; 
 }
-/*! sesion 77 end */
+/*! l.77 end */
  
 .clearfix {
   clear: both;
 }
-/*! sesion 76 end */
+/*! l.76 end */
 
 #premium {
   background: rgba(14, 79, 31, 0.95);
@@ -86,4 +106,4 @@ main {
 #premium .package__subtitle {
   color: #bbb;
 }
-/*! sesion 75 end */
+/*! l.75 end */
